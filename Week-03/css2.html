@@ -1,7 +1,7 @@
 <html>
 <head>
 <style>
-/* default setup for div blocks */
+/* default setup for div inline */
 .block {
     width: 40px;
     height: 40px;
@@ -9,6 +9,9 @@
     border-width: 1px;
     border-color: gray;
     border-style: dashed;
+    Display: inline;
+
+
 }
 /* a yellow block */
 .yellow {
@@ -22,13 +25,16 @@
 </style>
 </head>
 <body>
-    <section class="blocks-container">
+    <section class="block-container"; >
         <div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div>
         <div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div>
         <div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div>
         <div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div>
         <div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div><div class="block">b</div>
     </section>
+
+
+
     <section>
         <p>As you can see above, all of the <code>div</code> elements are styled to be gray blocks. Since <code>div</code> is a block-level element, it always shows up on it's own line.</p>
         <p><b>The challenge:</b> Use the <code>display</code> property to change this, so that the blocks don't take up their own line anymore, but all line up in a single line, a.k.a. "inline".</p>
