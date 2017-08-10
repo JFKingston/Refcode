@@ -25,8 +25,8 @@
 .one {
  width: 100px;
  height: 100px;
- margin: 106px;
- margin-top: 301px;
+ left: 114px;
+ top: 310px;
  border: 1px solid green;
  display: inline-block;
  position: absolute;
