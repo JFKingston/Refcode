@@ -1,0 +1,34 @@
+
+
+
+.two, .four {
+ width: 100px;
+ height: 100px;
+ margin: 0px;
+ border: 1px solid green;
+ display: inline-block;
+}
+.dynamic {
+ width: auto;
+ height: 100px;
+ margin: 0px;
+ border: 1px solid green;
+ display: inline-block;
+}
+.three, .five {
+ width: 100px;
+ height: 300px;
+ margin: 0px;
+ border: 1px solid green;
+ display: inline-block;
+}
+.one {
+ width: 100px;
+ height: 100px;
+ margin: 106px;
+ margin-top: 301px;
+ border: 1px solid green;
+ display: inline-block;
+ position: absolute;
+
+}

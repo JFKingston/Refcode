@@ -1,4 +1,8 @@
 <html>
+<head>
+  <link rel="stylesheet" href="css5.css">
+</link>
+<head>
 <body>
 <div class="one">Box One</div>
 <div class="two">Box Two</div>
@@ -7,20 +11,14 @@
 <div class="five">Box Five</div>
 <div class="dynamic"></div>
 </body>
+
 <style>
-.one, .two, .three, .four, .five, .dynamic {
-  width: 30px;
-  margin: 0px;
-  padding: 20px;
-  border: 1px solid green;
-  text-indent: none;
 
-
-}
 .dynamic:after {
     content: ".";
 }
 </style>
+
 <script>
 var dynamicElement = document.querySelector(".dynamic");
 var alphabet = "qwertyuiopasdfghjklzxcvbnm";
